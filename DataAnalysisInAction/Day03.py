@@ -48,7 +48,6 @@ df1 = DataFrame({"name": ["ZhangFei", "GuanYu", "a", "b", "c"], "data1": range(5
 print(df1.describe())
 
 
-
 from pandasql import sqldf, load_meat, load_births
 
 df1 = DataFrame({"name": ["ZhangFei", "GuanYu", "a", "b", "c"], "data1": range(5)})
